@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(80, 80, 80);
+}
+
+header {
+    padding: 20px;
+    background-color: rgb(50, 50, 50);
+    display: flex;
+    justify-content: space-between;
+}
+
+header a {
+    color: rgb(255,255,255);
+    text-decoration: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 1em;
+}
+
+div h2 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+section {
+    border-left-style: solid;
+    margin: 5em;
+    padding-left: 20px;
+}
+
+.bio img {
+    display: block;
+    margin: 1em auto 1em auto;
+    width: 25%;
+}
+
+.work section, .contact section {
+    display: flex;
+    justify-content: space-around;
+}
