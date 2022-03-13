@@ -9,11 +9,21 @@ body {
     color: rgb(80, 80, 80);
 }
 
+section {
+    border-left-style: solid;
+    margin: 5em;
+    padding-left: 20px;
+}
+
+/* apply styles to header starts */
 header {
     padding: 20px;
     background-color: rgb(50, 50, 50);
     display: flex;
     justify-content: space-between;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
 }
 
 header a {
@@ -21,20 +31,26 @@ header a {
     text-decoration: none;
 }
 
-header nav ul li {
-    display: inline;
-    margin: 1em;
-}
-
-div h2 {
+header nav ul {
     display: flex;
-    justify-content: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 1em;
 }
 
-section {
-    border-left-style: solid;
-    margin: 5em;
-    padding-left: 20px;
+header nav a {
+    padding: 25px;
+}
+/* apply styles to header ends */
+
+/* apply styles to About Me Section starts */
+
+.bio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .bio img {
@@ -42,8 +58,20 @@ section {
     margin: 1em auto 1em auto;
     width: 25%;
 }
+/* apply styles to About Me Section ends */
 
-.work section, .contact section {
+/* apply styles to Work Section starts */
+.work section {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
+/* apply styles to Work Section ends */
+
+/* apply styles to Contact Section starts */
+.contact section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+/* apply styles to Contact Section ends */
