@@ -9,8 +9,9 @@ body {
     color: rgb(80, 80, 80);
 }
 
-section {
+article {
     border-left-style: solid;
+    border-right-style: solid;
     margin: 5em;
     padding-left: 20px;
 }
@@ -47,7 +48,7 @@ header nav a {
 
 /* apply styles to About Me Section starts */
 
-.bio {
+.bio article {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -61,15 +62,19 @@ header nav a {
 /* apply styles to About Me Section ends */
 
 /* apply styles to Work Section starts */
-.work section {
+.work article {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
+
+.work img {
+    width: 25%;
+}
 /* apply styles to Work Section ends */
 
 /* apply styles to Contact Section starts */
-.contact section {
+.contact article {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
