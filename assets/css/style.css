@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border-style: dotted;
   }
 
   /* apply styles to body starts */
@@ -68,19 +69,47 @@ header nav a {
 /* apply styles to About Me Section ends */
 
 /* apply styles to Work Section starts */
+
+.quiz {
+    display: block;
+    text-align: center;
+}
+
 .work-projects {
-    width: 50%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+}
+
+
+.run-buddy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.run-buddy h3 {
+    text-align: center;
 }
 
 .run-buddy img {
-    width: 90%;
+    width: 100%;
+}
+
+.pwd-generator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pwd-generator h3 {
+    text-align: center;
 }
 
 .pwd-generator img {
-    width: 500%;
+    width: 100%;
 }
+
+
 /* apply styles to Work Section ends */
 
 /* apply styles to Contact Section starts */
