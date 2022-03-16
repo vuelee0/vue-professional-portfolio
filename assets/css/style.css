@@ -1,8 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    border-style: dotted;
   }
 
   /* apply styles to body starts */
@@ -26,7 +24,8 @@ section article {
     border-left-style: solid;
     border-width: 5px;
     margin: 5em;
-    padding-left: 20px;
+    padding: 20px;
+    width: 500%;
 }
 /* apply styles to body ends */
 
@@ -73,6 +72,11 @@ header nav a {
 .quiz {
     display: block;
     text-align: center;
+}
+
+.quiz img {
+    border-style: outset;
+    margin: 10px;
 }
 
 .work-projects {
