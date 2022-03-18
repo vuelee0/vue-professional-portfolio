@@ -1,14 +1,14 @@
 Vue's Professional Portfolio
 
-Purpose
+Purpose:
 Display of Vue's full stack bootcamp projects.
 
-Built With
+Built With:
 HTML
 CSS
 
-Website
+Website:
 https://vuelee0.github.io/vue-professional-portfolio/
 
-Contribution
+Contribution:
 Vue Lee
