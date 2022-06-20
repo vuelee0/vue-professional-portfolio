@@ -71,17 +71,17 @@ header nav a {
 
 /* apply styles to Work Section starts */
 
-.quiz {
+.pokebook {
     display: flex;
     justify-content: space-evenly;
 }
 
-.quiz h3 {
+.pokebook h3 {
     display: flex;
     justify-content: center;
 }
 
-.quiz img {
+.pokebook img {
     border-style: outset;
     max-width: 100%;
     margin: 10px;
